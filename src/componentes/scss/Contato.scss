@@ -1,0 +1,49 @@
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+
+.contato-box {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 800px; /* Ajuste conforme necessário */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contato-image {
+    width: 200px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para tornar a imagem redonda */
+}
+
+.contato-info {
+    margin-left: 20px;
+}
+
+.contato-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-icon {
+    width: 30px; /* Ajuste conforme necessário */
+    height: 30px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
